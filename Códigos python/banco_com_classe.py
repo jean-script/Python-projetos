@@ -6,7 +6,7 @@ def inicia_cadastro(nome, data, endereco):
     conexao = mysql.connector.connect(
         host ='localhost',
         user = 'root',
-        password = '980922Ged*',
+        password = 'senha*',
         database ='sucos'
     )
 
