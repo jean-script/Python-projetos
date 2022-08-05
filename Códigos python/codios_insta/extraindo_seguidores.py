@@ -5,7 +5,7 @@ import instaloader
 # Carrega a lib e faz login com a conta desejada 
 
 log = instaloader.Instaloader()
-log.login('jean.aires21','980922Ged')
+log.login('jean.aires21','senha')
 
 #carrega os dados de seguidores e seguindo do perfil escolhido
 Seguidores = instaloader.Profile(log.context, 'jean.aires21').get_followers()
