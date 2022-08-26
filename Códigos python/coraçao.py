@@ -26,7 +26,7 @@ def txt():
     pen.setpos(-68, 95) 
     pen.down() 
     pen.color('lightgreen') 
-    pen.write("I LOVE YOU JULIANA", font=( 
+    pen.write("I LOVE YOU", font=( 
       "Verdana", 12, "bold")) 
   
   
